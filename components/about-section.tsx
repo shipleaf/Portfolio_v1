@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useRef, useState } from "react";
 
 export function AboutSection() {
-  const [isVisible, setIsVisible] = useState(false)
-  const sectionRef = useRef<HTMLElement>(null)
+  const [isVisible, setIsVisible] = useState(false);
+  const sectionRef = useRef<HTMLElement>(null);
 
   const skills = [
     "UI/UX Design",
@@ -13,55 +13,73 @@ export function AboutSection() {
     "Prototyping",
     "React & Next.js",
     "Figma & Adobe Suite",
-  ]
+  ];
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          setIsVisible(true)
+          setIsVisible(true);
         }
       },
-      { threshold: 0.1 },
-    )
+      { threshold: 0.1 }
+    );
 
     if (sectionRef.current) {
-      observer.observe(sectionRef.current)
+      observer.observe(sectionRef.current);
     }
 
-    return () => observer.disconnect()
-  }, [])
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <section id="about" className="py-32 px-6 lg:px-8" ref={sectionRef}>
       <div className="max-w-6xl mx-auto">
         <h2
-          className={`text-sm uppercase tracking-wider text-muted-foreground mb-16 transition-all duration-700 text-center md:text-left ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
+          className={`text-4xl font-bold uppercase tracking-wider text-muted-foreground mb-16 transition-all duration-700 text-center md:text-left ${
+            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
+          }`}
         >
           About Me
         </h2>
 
         <div className="grid md:grid-cols-2 gap-16">
           <div
-            className={`space-y-6 transition-all duration-700 delay-100 text-center md:text-left ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
+            className={`space-y-6 transition-all duration-700 delay-100 text-center md:text-left ${
+              isVisible
+                ? "opacity-100 translate-y-0"
+                : "opacity-0 translate-y-4"
+            }`}
           >
             <p className="text-lg leading-relaxed text-muted-foreground">
-              I'm a multidisciplinary designer and developer with over 8 years of experience creating digital products
-              that people love to use. My approach combines strategic thinking with meticulous attention to detail.
+              I'm a multidisciplinary designer and developer with over 8 years
+              of experience creating digital products that people love to use.
+              My approach combines strategic thinking with meticulous attention
+              to detail.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
-              I believe great design is invisible—it just works. Whether I'm designing interfaces or writing code, I
-              focus on creating experiences that are both beautiful and functional.
+              I believe great design is invisible—it just works. Whether I'm
+              designing interfaces or writing code, I focus on creating
+              experiences that are both beautiful and functional.
             </p>
           </div>
 
           <div
-            className={`transition-all duration-700 delay-200 text-center md:text-left ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
+            className={`transition-all duration-700 delay-200 text-center md:text-left ${
+              isVisible
+                ? "opacity-100 translate-y-0"
+                : "opacity-0 translate-y-4"
+            }`}
           >
-            <h3 className="text-sm uppercase tracking-wider text-muted-foreground mb-6">Skills & Services</h3>
+            <h3 className="text-sm uppercase tracking-wider text-muted-foreground mb-6">
+              Skills & Services
+            </h3>
             <ul className="space-y-3">
               {skills.map((skill) => (
-                <li key={skill} className="flex items-center gap-3 text-foreground justify-center md:justify-start">
+                <li
+                  key={skill}
+                  className="flex items-center gap-3 text-foreground justify-center md:justify-start"
+                >
                   <div className="w-1.5 h-1.5 bg-foreground rounded-full" />
                   {skill}
                 </li>
@@ -71,5 +89,5 @@ export function AboutSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

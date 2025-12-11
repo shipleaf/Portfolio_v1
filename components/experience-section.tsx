@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useRef, useState } from "react";
 
 export function ExperienceSection() {
-  const [isVisible, setIsVisible] = useState(false)
-  const sectionRef = useRef<HTMLElement>(null)
+  const [isVisible, setIsVisible] = useState(false);
+  const sectionRef = useRef<HTMLElement>(null);
 
   const experiences = [
     {
@@ -27,30 +27,36 @@ export function ExperienceSection() {
       company: "Dropbox",
       period: "2016 - 2018",
     },
-  ]
+  ];
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          setIsVisible(true)
+          setIsVisible(true);
         }
       },
-      { threshold: 0.1 },
-    )
+      { threshold: 0.1 }
+    );
 
     if (sectionRef.current) {
-      observer.observe(sectionRef.current)
+      observer.observe(sectionRef.current);
     }
 
-    return () => observer.disconnect()
-  }, [])
+    return () => observer.disconnect();
+  }, []);
 
   return (
-    <section id="experience" className="py-32 px-6 lg:px-8 bg-muted" ref={sectionRef}>
+    <section
+      id="experience"
+      className="py-32 px-6 lg:px-8 bg-muted"
+      ref={sectionRef}
+    >
       <div className="max-w-6xl mx-auto">
         <h2
-          className={`text-sm uppercase tracking-wider text-muted-foreground mb-16 transition-all duration-700 text-center md:text-left ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
+          className={`text-4xl font-bold uppercase tracking-wider text-muted-foreground mb-16 transition-all duration-700 text-center md:text-left ${
+            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
+          }`}
         >
           My Experience
         </h2>
@@ -62,7 +68,11 @@ export function ExperienceSection() {
             {experiences.map((exp, index) => (
               <div
                 key={index}
-                className={`relative pl-12 text-left transition-all duration-700 group ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
+                className={`relative pl-12 text-left transition-all duration-700 group ${
+                  isVisible
+                    ? "opacity-100 translate-y-0"
+                    : "opacity-0 translate-y-4"
+                }`}
                 style={{ transitionDelay: `${(index + 1) * 100}ms` }}
               >
                 <div className="absolute left-0 top-3 w-8 h-[2px] bg-foreground/30 group-hover:w-10 group-hover:bg-foreground transition-all duration-300" />
@@ -79,5 +89,5 @@ export function ExperienceSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

@@ -1,14 +1,15 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { ArrowRight, MapPin } from "lucide-react";
+import {
+  ArrowRight,
+  MapPin,
+  GraduationCap,
+  CalendarFold,
+  Phone,
+} from "lucide-react";
 
-const phrases = [
-  "User Experience",
-  "I build fast websites.",
-  "I craft beautiful brands.",
-  "I create intuitive interfaces.",
-];
+const phrases = ["User Experience", "Intuitive UI", "Efficient Communication"];
 
 export function HeroSection() {
   const [currentPhrase, setCurrentPhrase] = useState(0);
@@ -59,35 +60,49 @@ export function HeroSection() {
         </p>
 
         <div className="relative mb-8">
-          {/* 1) 레이아웃 전용: 두 줄까지 높이 확보 (보이지 않음) */}
           <p className="invisible text-5xl md:text-7xl lg:text-8xl font-bold leading-tight text-balance">
             I create intuitive interfaces.
           </p>
 
-          {/* 2) 실제 타이핑 텍스트 */}
           <h1 className="absolute inset-0 text-5xl md:text-7xl lg:text-8xl font-bold leading-tight animate-fade-in-delay-1">
             <span className="text-balance">{displayText}</span>
             <span className="animate-pulse">|</span>
           </h1>
         </div>
 
-        <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed text-balance animate-fade-in-delay-2">
-          I'm a creative professional passionate about crafting exceptional
-          digital experiences that blend beautiful design with powerful
-          functionality.
+        <p className="text-lg md:text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed text-balance animate-fade-in-delay-2">
+          고객 경험 개선과 코드 품질 개선에 대해 관심이 많은 프론트엔드 개발자
+          <b> 김선엽</b>입니다.
+          <div className="block w-full whitespace-nowrap">
+            기술 변화의 한가운데 있는 직무임을 잘 이해하고 있으며, 뒤쳐지지
+            않도록 끊임없이 노력하겠습니다.
+          </div>
         </p>
 
-        <div className="flex flex-col items-center gap-3 mb-12 animate-fade-in-delay-3">
-          <p className="text-base md:text-lg font-medium">KIM Seon Yeop</p>
-          <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-muted-foreground">
+        <div className="flex flex-col items-center gap-4 mb-12 animate-fade-in-delay-3">
+          <p className="text-base md:text-lg font-medium">
+            김선엽 (KIM Seon Yeop)
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-8 text-sm text-muted-foreground">
+            <div className="flex items-center gap-1.5">
+              <GraduationCap className="w-4 h-4" />
+              <span>고려대 세종</span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <CalendarFold className="w-4 h-4" />
+              <span>2000.02.19</span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <Phone className="w-4 h-4" />
+              <span>010-5222-3076</span>
+            </div>
             <div className="flex items-center gap-1.5">
               <MapPin className="w-4 h-4" />
-              <span>San Francisco, CA</span>
+              <span>경기도 용인</span>
             </div>
-            <span className="hidden sm:inline">•</span>
             <div className="flex items-center gap-1.5">
               <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-              <span>Available for work</span>
+              <span>구직 중</span>
             </div>
           </div>
         </div>
@@ -97,14 +112,14 @@ export function HeroSection() {
             onClick={scrollToProjects}
             className="px-8 py-4 bg-accent text-accent-foreground rounded-lg hover:opacity-90 transition-opacity font-medium flex items-center gap-2"
           >
-            View My Work
+            View My Projects
             <ArrowRight className="w-4 h-4" />
           </button>
           <button
             onClick={scrollToConnect}
             className="px-8 py-4 border border-border rounded-lg hover:bg-muted transition-colors font-medium"
           >
-            Get In Touch
+            Contact me
           </button>
         </div>
       </div>
