@@ -1,0 +1,14 @@
+[00:00:01.052] Server  LOG      ✓ Ready in 659ms
+[00:00:04.277] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:14:42.638] Server  LOG      ✓ Compiled in 62ms
+[01:14:46.818] Server  LOG      ✓ Compiled in 43ms
+[01:24:37.528] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:29:52.140] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:35:05.887] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:35:08.610] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:38:05.763] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:54:29.185] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:55:49.944] Server  LOG      ✓ Compiled in 47ms
+[01:55:54.235] Server  LOG      ✓ Compiled in 40ms
+[01:55:56.955] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:56:57.681] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'aa')
