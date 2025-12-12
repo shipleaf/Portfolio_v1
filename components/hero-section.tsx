@@ -73,10 +73,10 @@ export function HeroSection() {
         <p className="text-lg md:text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed text-balance animate-fade-in-delay-2">
           고객 경험 개선과 코드 품질 개선에 대해 관심이 많은 프론트엔드 개발자
           <b> 김선엽</b>입니다.
-          <div className="block w-full whitespace-nowrap">
+          <span className="block w-full whitespace-nowrap">
             기술 변화의 한가운데 있는 직무임을 잘 이해하고 있으며, 뒤쳐지지
             않도록 끊임없이 노력하겠습니다.
-          </div>
+          </span>
         </p>
 
         <div className="flex flex-col items-center gap-4 mb-12 animate-fade-in-delay-3">

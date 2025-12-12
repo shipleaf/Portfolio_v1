@@ -8,24 +8,19 @@ export function ExperienceSection() {
 
   const experiences = [
     {
-      title: "Lead Designer",
-      company: "Google",
-      period: "2022 - Present",
+      title: "SSAFY 14th(교육)",
+      company: "삼성청년SW아카데미",
+      period: "2025.07 ~ Present",
     },
     {
-      title: "Senior Product Designer",
-      company: "Stripe",
-      period: "2020 - 2022",
+      title: "멋쟁이사자처럼 12th",
+      company: "멋쟁이사자처럼",
+      period: "2024.03 - 2025.12",
     },
     {
-      title: "Product Designer",
-      company: "Airbnb",
-      period: "2018 - 2020",
-    },
-    {
-      title: "UI/UX Designer",
-      company: "Dropbox",
-      period: "2016 - 2018",
+      title: "언더독 레볼루션 운영진(교내 동아리)",
+      company: "언더독 레볼루션",
+      period: "2024.03 - 2025.12",
     },
   ];
 

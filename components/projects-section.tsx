@@ -9,23 +9,23 @@ export function ProjectsSection() {
   const projects = [
     {
       title: "테이블 오더 서비스 - DineQ",
-      tags: ["Next.js", "Webview", "Zustand"],
+      tags: ["Next.js", "Webview", "Zustand", "React Query"],
       image: "/dineq.png",
     },
     {
       title: "주차 관리 서비스 - HonorsParking",
-      tags: ["UI/UX", "Mobile", "Fintech"],
+      tags: ["Next.js", "React Native", "Firebase Cloud Messaging"],
       image: "/honorsparking.png",
     },
     {
       title: "모임 투표 서비스 - 모여봐요",
-      tags: ["Web Design", "Data Viz", "SaaS"],
-      image: "/modern-dashboard-analytics.jpg",
+      tags: ["Next.js", "Responsive Web", "TailwindCSS", "SEO"],
+      image: "/moyeobwayo.png",
     },
     {
       title: "취업 지원 플랫폼 - MyJobCalendar",
-      tags: ["Branding", "Logo Design", "Print"],
-      image: "/brand-identity-design-mockup.jpg",
+      tags: ["React.js", "Naver Cloud Platform", "Recoil"],
+      image: "/myjobcalendar.png",
     },
   ];
 

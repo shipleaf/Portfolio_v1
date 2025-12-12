@@ -90,8 +90,62 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$theme$2d$provi
 ;
 const metadata = {
     title: "김선엽 | 프론트엔드 포트폴리오",
-    description: "A minimalist portfolio showcasing design and development work",
-    generator: "v0.app"
+    description: "프론트엔드 개발자 김선엽의 포트폴리오입니다.",
+    applicationName: "김선엽 포트폴리오",
+    authors: [
+        {
+            name: "김선엽"
+        }
+    ],
+    generator: "v0.app",
+    metadataBase: new URL("https://shipleaf-portfolio.vercel.app/"),
+    // 검색결과에서 사이트명처럼 뜨는 부분
+    keywords: [
+        "김선엽",
+        "프론트엔드 개발자",
+        "프론트엔드 포트폴리오",
+        "React",
+        "Next.js",
+        "TypeScript"
+    ],
+    creator: "김선엽",
+    publisher: "김선엽",
+    // open graph (카톡/슬랙 공유 썸네일 등)
+    openGraph: {
+        title: "김선엽 | 프론트엔드 포트폴리오",
+        description: "프론트엔드 개발자 김선엽의 프로젝트와 기술 스택을 확인해보세요.",
+        url: "https://shipleaf-portfolio.vercel.app/",
+        siteName: "김선엽 포트폴리오",
+        locale: "ko_KR",
+        type: "website",
+        images: [
+            {
+                url: "/og-image.png",
+                width: 1200,
+                height: 630,
+                alt: "김선엽 포트폴리오 미리보기"
+            }
+        ]
+    },
+    // 트위터 카드
+    twitter: {
+        card: "summary_large_image",
+        title: "김선엽 | 프론트엔드 포트폴리오",
+        description: "Next.js, React, TypeScript 기반 프론트엔드 개발자 김선엽의 포트폴리오.",
+        images: [
+            "/og-image.png"
+        ]
+    },
+    // 파비콘/아이콘
+    icons: {
+        icon: "/favicon.ico",
+        shortcut: "/favicon-32x32.png",
+        apple: "/apple-touch-icon.png"
+    },
+    // 언어/지역
+    alternates: {
+        canonical: "https://shipleaf-portfolio.vercel.app/"
+    }
 };
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
@@ -103,17 +157,17 @@ function RootLayout({ children }) {
                 children: children
             }, void 0, false, {
                 fileName: "[project]/app/layout.tsx",
-                lineNumber: 22,
+                lineNumber: 78,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/layout.tsx",
-            lineNumber: 21,
+            lineNumber: 77,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 20,
+        lineNumber: 76,
         columnNumber: 5
     }, this);
 }

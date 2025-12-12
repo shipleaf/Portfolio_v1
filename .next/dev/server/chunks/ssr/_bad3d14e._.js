@@ -128,7 +128,7 @@ function HeroSection() {
                             columnNumber: 11
                         }, this),
                         "입니다.",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             className: "block w-full whitespace-nowrap",
                             children: "기술 변화의 한가운데 있는 직무임을 잘 이해하고 있으며, 뒤쳐지지 않도록 끊임없이 노력하겠습니다."
                         }, void 0, false, {
@@ -488,24 +488,19 @@ function ExperienceSection() {
     const sectionRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
     const experiences = [
         {
-            title: "Lead Designer",
-            company: "Google",
-            period: "2022 - Present"
+            title: "SSAFY 14th(교육)",
+            company: "삼성청년SW아카데미",
+            period: "2025.07 ~ Present"
         },
         {
-            title: "Senior Product Designer",
-            company: "Stripe",
-            period: "2020 - 2022"
+            title: "멋쟁이사자처럼 12th",
+            company: "멋쟁이사자처럼",
+            period: "2024.03 - 2025.12"
         },
         {
-            title: "Product Designer",
-            company: "Airbnb",
-            period: "2018 - 2020"
-        },
-        {
-            title: "UI/UX Designer",
-            company: "Dropbox",
-            period: "2016 - 2018"
+            title: "언더독 레볼루션 운영진(교내 동아리)",
+            company: "언더독 레볼루션",
+            period: "2024.03 - 2025.12"
         }
     ];
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
@@ -533,7 +528,7 @@ function ExperienceSection() {
                     children: "My Experience"
                 }, void 0, false, {
                     fileName: "[project]/components/experience-section.tsx",
-                    lineNumber: 56,
+                    lineNumber: 51,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -543,7 +538,7 @@ function ExperienceSection() {
                             className: "absolute left-0 top-0 bottom-0 w-[2px] bg-gradient-to-b from-transparent via-border to-transparent"
                         }, void 0, false, {
                             fileName: "[project]/components/experience-section.tsx",
-                            lineNumber: 65,
+                            lineNumber: 60,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -558,7 +553,7 @@ function ExperienceSection() {
                                             className: "absolute left-0 top-3 w-8 h-[2px] bg-foreground/30 group-hover:w-10 group-hover:bg-foreground transition-all duration-300"
                                         }, void 0, false, {
                                             fileName: "[project]/components/experience-section.tsx",
-                                            lineNumber: 78,
+                                            lineNumber: 73,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -568,7 +563,7 @@ function ExperienceSection() {
                                                     children: exp.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/experience-section.tsx",
-                                                    lineNumber: 81,
+                                                    lineNumber: 76,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -580,41 +575,41 @@ function ExperienceSection() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/experience-section.tsx",
-                                                    lineNumber: 82,
+                                                    lineNumber: 77,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/experience-section.tsx",
-                                            lineNumber: 80,
+                                            lineNumber: 75,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/components/experience-section.tsx",
-                                    lineNumber: 69,
+                                    lineNumber: 64,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/experience-section.tsx",
-                            lineNumber: 67,
+                            lineNumber: 62,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/experience-section.tsx",
-                    lineNumber: 64,
+                    lineNumber: 59,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/experience-section.tsx",
-            lineNumber: 55,
+            lineNumber: 50,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/experience-section.tsx",
-        lineNumber: 50,
+        lineNumber: 45,
         columnNumber: 5
     }, this);
 }
@@ -640,36 +635,38 @@ function ProjectsSection() {
             tags: [
                 "Next.js",
                 "Webview",
-                "Zustand"
+                "Zustand",
+                "React Query"
             ],
             image: "/dineq.png"
         },
         {
             title: "주차 관리 서비스 - HonorsParking",
             tags: [
-                "UI/UX",
-                "Mobile",
-                "Fintech"
+                "Next.js",
+                "React Native",
+                "Firebase Cloud Messaging"
             ],
             image: "/honorsparking.png"
         },
         {
             title: "모임 투표 서비스 - 모여봐요",
             tags: [
-                "Web Design",
-                "Data Viz",
-                "SaaS"
+                "Next.js",
+                "Responsive Web",
+                "TailwindCSS",
+                "SEO"
             ],
-            image: "/modern-dashboard-analytics.jpg"
+            image: "/moyeobwayo.png"
         },
         {
             title: "취업 지원 플랫폼 - MyJobCalendar",
             tags: [
-                "Branding",
-                "Logo Design",
-                "Print"
+                "React.js",
+                "Naver Cloud Platform",
+                "Recoil"
             ],
-            image: "/brand-identity-design-mockup.jpg"
+            image: "/myjobcalendar.png"
         }
     ];
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
@@ -893,7 +890,7 @@ function ConnectSection() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-4xl lg:text-5xl font-bold text-balance",
-                                children: "Let's Connect"
+                                children: "Contact Me!"
                             }, void 0, false, {
                                 fileName: "[project]/components/connect-section.tsx",
                                 lineNumber: 39,
@@ -901,7 +898,7 @@ function ConnectSection() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-lg text-muted-foreground max-w-2xl mx-auto text-pretty",
-                                children: "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision."
+                                children: "더 나은 개발자가 되기 위해 꾸준히 배우고 있습니다. 제 포트폴리오가 마음에 드셨다면, 연락 주시면 감사한 마음으로 응답드리겠습니다."
                             }, void 0, false, {
                                 fileName: "[project]/components/connect-section.tsx",
                                 lineNumber: 42,
@@ -920,7 +917,7 @@ function ConnectSection() {
                             className: "gap-2",
                             asChild: true,
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "mailto:hello@example.com",
+                                href: "mailto:sunyeop12@gmail.com",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$454$2e$0_react$40$19$2e$2$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"], {
                                         className: "w-4 h-4"
@@ -929,7 +926,7 @@ function ConnectSection() {
                                         lineNumber: 57,
                                         columnNumber: 17
                                     }, this),
-                                    "Get in Touch"
+                                    "Contact to Email"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/connect-section.tsx",
@@ -968,6 +965,43 @@ function ConnectSection() {
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "https://velog.io/@shipleaf/posts",
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                className: "p-3 hover:bg-muted rounded-lg transition-colors",
+                                "aria-label": "Dribbble",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                    className: "icon",
+                                    xmlns: "http://www.w3.org/2000/svg",
+                                    xmlnsXlink: "http://www.w3.org/1999/xlink",
+                                    x: "0px",
+                                    y: "0px",
+                                    viewBox: "0 0 192 192",
+                                    enableBackground: "new 0 0 28 28",
+                                    xmlSpace: "preserve",
+                                    width: "20",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                        id: "Website",
+                                        fill: "#000000",
+                                        fillRule: "evenodd",
+                                        clipRule: "evenodd",
+                                        d: "M24 0H168C181.255 0 192 10.7451 192 24V168C192 181.255 181.255 192 168 192H24C10.7451 192 0 181.255 0 168V24C0 10.7451 10.7451 0 24 0ZM49 57.9199V65.48H67L80.6799 142.52L98.5 141.26C116.02 119.06 127.84 102.44 133.96 91.3999C140.2 80.24 143.32 70.9399 143.32 63.5C143.32 59.0601 142 55.7 139.36 53.4199C136.84 51.1399 133.66 50 129.82 50C122.62 50 116.62 53.0601 111.82 59.1799C116.5 62.3 119.68 64.8799 121.36 66.9199C123.16 68.8401 124.06 71.4199 124.06 74.6599C124.06 80.0601 122.44 86.1799 119.2 93.02C116.08 99.8601 112.66 105.92 108.94 111.2C106.54 114.56 103.48 118.7 99.76 123.62L88.0601 57.2C87.1001 52.3999 84.1001 50 79.0601 50C76.78 50 72.3999 50.96 65.9199 52.8799C59.4399 54.6799 53.8 56.3601 49 57.9199Z"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/connect-section.tsx",
+                                        lineNumber: 97,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/connect-section.tsx",
+                                    lineNumber: 86,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/components/connect-section.tsx",
+                                lineNumber: 79,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "https://www.linkedin.com/in/%EC%84%A0%EC%97%BD-undefined-432659337/",
                                 target: "_blank",
                                 rel: "noopener noreferrer",
@@ -977,12 +1011,12 @@ function ConnectSection() {
                                     className: "w-5 h-5"
                                 }, void 0, false, {
                                     fileName: "[project]/components/connect-section.tsx",
-                                    lineNumber: 95,
+                                    lineNumber: 113,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/connect-section.tsx",
-                                lineNumber: 88,
+                                lineNumber: 106,
                                 columnNumber: 13
                             }, this)
                         ]
