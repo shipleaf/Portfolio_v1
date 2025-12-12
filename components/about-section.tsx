@@ -42,10 +42,12 @@ export function AboutSection() {
         >
           About Me
         </h2>
-
-        <div className="grid md:grid-cols-2 gap-16">
+        <div className="grid md:grid-cols-4 gap-16">
+          <div className="max-w-2xl mx-auto">
+            <img src="/shipleaf.jpg" alt="" />
+          </div>
           <div
-            className={`space-y-6 transition-all duration-700 delay-100 text-center md:text-left ${
+            className={`space-y-6 md:col-span-2 transition-all duration-700 delay-100 text-center md:text-left ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-4"
