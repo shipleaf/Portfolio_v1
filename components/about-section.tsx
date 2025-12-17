@@ -4,15 +4,81 @@ import { useEffect, useRef, useState } from "react";
 
 export function AboutSection() {
   const [isVisible, setIsVisible] = useState(false);
+  const [hoveredSkill, setHoveredSkill] = useState<string | null>(null);
+  const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
   const sectionRef = useRef<HTMLElement>(null);
 
   const skills = [
-    "UI/UX Design",
-    "Web Development",
-    "Branding",
-    "Prototyping",
-    "React & Next.js",
-    "Figma & Adobe Suite",
+    {
+      name: "HTML",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    },
+    {
+      name: "CSS",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    },
+    {
+      name: "JavaScript",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    },
+    {
+      name: "React.js",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    },
+    {
+      name: "Next.js",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    },
+    { name: "Recoil", logo: "https://recoiljs.org/img/logo.svg" },
+    {
+      name: "Zustand",
+      logo: "https://raw.githubusercontent.com/pmndrs/zustand/main/docs/bear.jpg",
+    },
+    {
+      name: "TanStack Query",
+      logo: "https://raw.githubusercontent.com/TanStack/query/main/media/emblem-light.svg",
+    },
+    {
+      name: "Vue.js",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+    },
+    { name: "Pinia", logo: "https://pinia.vuejs.org/logo.svg" },
+    {
+      name: "Vercel",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
+    },
+    {
+      name: "Naver Cloud",
+      logo: "https://www.ncloud.com/resources/img/common/logo_ncloud.png",
+    },
+    {
+      name: "Firebase",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+    },
+    {
+      name: "React Native",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    },
+    {
+      name: "Tailwind CSS",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+    },
+    {
+      name: "SASS",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+    },
+    {
+      name: "Styled-Components",
+      logo: "https://www.styled-components.com/atom.png",
+    },
+    {
+      name: "TypeScript",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    },
+    {
+      name: "WebSocket",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg",
+    },
   ];
 
   useEffect(() => {
@@ -31,6 +97,15 @@ export function AboutSection() {
 
     return () => observer.disconnect();
   }, []);
+
+  const handleMouseMove = (e: React.MouseEvent, skillName: string) => {
+    setHoveredSkill(skillName);
+    setTooltipPosition({ x: e.clientX, y: e.clientY });
+  };
+
+  const handleMouseLeave = () => {
+    setHoveredSkill(null);
+  };
 
   return (
     <section id="about" className="py-32 px-6 lg:px-8" ref={sectionRef}>
@@ -54,15 +129,16 @@ export function AboutSection() {
             }`}
           >
             <p className="text-lg leading-relaxed text-muted-foreground">
-              I'm a multidisciplinary designer and developer with over 8 years
-              of experience creating digital products that people love to use.
-              My approach combines strategic thinking with meticulous attention
-              to detail.
+              사용자 경험과 코드 품질을 함께 고민하는 프론트엔드 개발자입니다.
+              React·Next.js·Vue.js등 다양한 프레임워크를 기반으로 웹 서비스를
+              개발하며, 구조 개선과 성능 최적화를 통해 실제 사용자 경험을
+              향상시키는 데 보람을 느낍니다.
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
-              I believe great design is invisible—it just works. Whether I'm
-              designing interfaces or writing code, I focus on creating
-              experiences that are both beautiful and functional.
+              프론트엔드는 사용자와 서비스가 가장 먼저 만나는 영역입니다. 그래서
+              저는 “왜 이 UI여야 하는가”, “이 흐름이 사용자에게 자연스러운가”를
+              끊임없이 질문하며, 사용자가 서비스를 처음 접하는 순간을 설계한다는
+              책임감을 가지고 더 나은 경험을 만드는 개발자로 성장하고자 합니다.
             </p>
           </div>
 
@@ -74,22 +150,39 @@ export function AboutSection() {
             }`}
           >
             <h3 className="text-sm uppercase tracking-wider text-muted-foreground mb-6">
-              Skills & Services
+              Skills & Technologies
             </h3>
-            <ul className="space-y-3">
+            <div className="grid grid-cols-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
               {skills.map((skill) => (
-                <li
-                  key={skill}
-                  className="flex items-center gap-3 text-foreground justify-center md:justify-start"
+                <div
+                  key={skill.name}
+                  className="relative w-14 h-14 bg-card rounded-lg flex items-center justify-center transition-all duration-200 hover:scale-110 hover:shadow-lg border border-border cursor-pointer"
+                  onMouseMove={(e) => handleMouseMove(e, skill.name)}
+                  onMouseLeave={handleMouseLeave}
                 >
-                  <div className="w-1.5 h-1.5 bg-foreground rounded-full" />
-                  {skill}
-                </li>
+                  <img
+                    src={skill.logo || "/placeholder.svg"}
+                    alt={skill.name}
+                    className="w-8 h-8 object-contain"
+                  />
+                </div>
               ))}
-            </ul>
+            </div>
           </div>
         </div>
       </div>
+      {hoveredSkill && (
+        <div
+          className="fixed pointer-events-none z-50 px-3 py-1.5 bg-foreground text-background text-xs rounded-md shadow-lg"
+          style={{
+            left: `${tooltipPosition.x}px`,
+            top: `${tooltipPosition.y + 20}px`,
+            transform: "translateX(-50%)",
+          }}
+        >
+          {hoveredSkill}
+        </div>
+      )}
     </section>
   );
 }

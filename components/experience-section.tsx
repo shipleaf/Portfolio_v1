@@ -57,7 +57,7 @@ export function ExperienceSection() {
         </h2>
 
         <div className="relative max-w-2xl mx-auto">
-          <div className="absolute left-0 top-0 bottom-0 w-[2px] bg-gradient-to-b from-transparent via-border to-transparent" />
+          <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-linear-to-b from-transparent via-border to-transparent" />
 
           <div className="space-y-16">
             {experiences.map((exp, index) => (
@@ -70,7 +70,7 @@ export function ExperienceSection() {
                 }`}
                 style={{ transitionDelay: `${(index + 1) * 100}ms` }}
               >
-                <div className="absolute left-0 top-3 w-8 h-[2px] bg-foreground/30 group-hover:w-10 group-hover:bg-foreground transition-all duration-300" />
+                <div className="absolute left-0 top-3 w-8 h-0.5 bg-foreground/30 group-hover:w-10 group-hover:bg-foreground transition-all duration-300" />
 
                 <div>
                   <h3 className="text-xl font-semibold mb-1">{exp.title}</h3>
