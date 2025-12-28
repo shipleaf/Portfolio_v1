@@ -1,468 +1,235 @@
-[00:00:00.640] Server  LOG      ✓ Ready in 439ms
-[00:00:02.064] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:33.677] Server  LOG      ✓ Compiled in 64ms
-[00:00:49.273] Server  LOG      ✓ Compiled in 27ms
-[00:01:07.516] Server  LOG      ✓ Compiled in 37ms
-[00:01:08.677] Server  LOG      ✓ Compiled in 47ms
-[00:01:09.920] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:11.614] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:48.082] Server  LOG      ✓ Compiled in 52ms
-[00:12:48.894] Browser ERROR   ./components/projects-section.tsx:21:5
+[00:00:00.757] Server  LOG      ✓ Ready in 513ms
+[00:00:04.799] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.567] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.004] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:37.831] Server  LOG      ✓ Compiled in 126ms
+[00:38:42.027] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:39:18.623] Server  LOG      ✓ Compiled in 58ms
+[00:42:41.679] Server  LOG      ✓ Compiled in 33ms
+[00:42:59.557] Server  LOG      ✓ Compiled in 21ms
+[00:43:01.058] Server  LOG      ✓ Compiled in 25ms
+[00:43:08.790] Server  LOG      ✓ Compiled in 21ms
+[00:43:11.654] Server  LOG      ✓ Compiled in 15ms
+[00:43:18.630] Server  LOG      ✓ Compiled in 40ms
+[00:43:26.955] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:31.560] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:21.243] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:21.792] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:22.237] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:02.071] Server  LOG      ✓ Compiled in 30ms
+[00:47:03.043] Server  LOG      ✓ Compiled in 26ms
+[00:47:05.368] Server  LOG      ✓ Compiled in 28ms
+[00:47:08.346] Server  LOG      ✓ Compiled in 24ms
+[00:47:19.350] Server  LOG      ✓ Compiled in 70ms
+[00:47:21.659] Server  LOG      ✓ Compiled in 62ms
+[00:47:30.938] Server  LOG      ✓ Compiled in 52ms
+[00:47:38.806] Server  LOG      ✓ Compiled in 26ms
+[00:49:31.908] Server  LOG      ✓ Compiled in 27ms
+[00:51:45.172] Server  LOG      ✓ Compiled in 42ms
+[00:51:46.377] Server  LOG      ✓ Compiled in 31ms
+[00:51:47.547] Server  LOG      ✓ Compiled in 27ms
+[00:51:48.555] Server  LOG      ✓ Compiled in 25ms
+[00:51:49.441] Server  LOG      ✓ Compiled in 25ms
+[00:51:50.651] Server  LOG      ✓ Compiled in 25ms
+[00:51:51.747] Server  LOG      ✓ Compiled in 26ms
+[00:51:58.269] Server  LOG      ✓ Compiled in 39ms
+[00:52:02.365] Server  LOG      ✓ Compiled in 34ms
+[00:53:33.746] Server  LOG      ✓ Compiled in 36ms
+[00:54:03.148] Server  LOG      ✓ Compiled in 22ms
+[00:54:14.260] Server  LOG      ✓ Compiled in 27ms
+[00:54:17.535] Server  LOG      ✓ Compiled in 22ms
+[00:54:19.070] Server  LOG      ✓ Compiled in 32ms
+[00:54:19.186] Browser ERROR   ./components/projects-section.tsx:63:7
 Parsing ecmascript source code failed
-  19 |         "A modern e-commerce platform with a focus on user experience and conversion optimization. Features include real-time inventory management, personalized recommendations, and seamless checkout flow.",
-  20 |     },
-> 21 |     },
-     |     ^
-  22 |     {
-  23 |       title: "주차 관리 서비스 - HonorsParking",
-  24 |       tags: ["Next.js", "React Native", "Firebase Cloud Messaging"],
+  61 |       techStack: ["Vue.js", "Pinia", "TanStack Query", "SASS"],
+  62 |       duration: "4 개월",ㄴ
+> 63 |       description:
+     |       ^^^^^^^^^^^
+  64 |         "An analytics dashboard for SaaS businesses to track key metrics and make data-driven decisions. Features interactive charts, real-time updates, and customizable widgets.",
+  65 |     },
+  66 |     {
 
-Expression expected
+Unexpected token `description`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
 
 Import trace:
   Server Component:
     ./components/projects-section.tsx
     ./app/page.tsx
-[00:12:49.895] Browser ERROR   ./components/projects-section.tsx:21:5
+[00:56:01.580] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:02.463] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:02.920] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:47.856] Server  LOG      ✓ Compiled in 74ms
+[00:56:59.071] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:59:05.657] Server  LOG      ✓ Compiled in 45ms
+[00:59:11.592] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:02:31.977] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:02:39.970] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:02:40.532] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:02:40.922] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:50.674] Server  LOG      ✓ Compiled in 111ms
+[01:05:05.943] Server  LOG      ✓ Compiled in 29ms
+[01:05:16.742] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:25.405] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:26.418] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:57.859] Server  LOG      ✓ Compiled in 27ms
+[01:06:07.209] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:07:05.144] Server  LOG      ✓ Compiled in 43ms
+[01:09:37.527] Server  LOG      ✓ Compiled in 61ms
+[01:09:37.790] Browser ERROR   ./components/projects-section.tsx:37:9
 Parsing ecmascript source code failed
-  19 |         "A modern e-commerce platform with a focus on user experience and conversion optimization. Features include real-time inventory management, personalized recommendations, and seamless checkout flow.",
-  20 |     },
-> 21 |     },
-     |     ^
-  22 |     {
-  23 |       title: "주차 관리 서비스 - HonorsParking",
-  24 |       tags: ["Next.js", "React Native", "Firebase Cloud Messaging"],
+  35 |       duration: "6 개월",
+  36 |       description:
+> 37 |         "DineQ는 매장 QR 주문 서비스로, 고객의 주문 편의성을 높이고 점주의 운영 효율을 개선하기 위해 개발되었습니다. 빠른 서비스 도입을 위해 Next.js 기반의 React Native WebView 방식을 채택하여 웹과 앱 환경을 동시에 지원하며 개발 기간을 크게 단축했습니다.
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  38 |
+  39 | 또한 “주문 수신이 늦게 들어온다”는 사용자 피드백을 기반으로 기존의 polling 구조를 WebSocket 기반 실시간 통신으로 전환했습니다. 이를 통해 최악의 경우 약 25배, 평균 12배 이상 빠른 응답 속도 개선을 이루었으며, 서버로 전송되는 불필요한 요청도 약 90% 감소시키는 성과를 얻었습니다.
+  40 |
 
-Expression expected
+Unterminated string constant
 
 Import trace:
   Server Component:
     ./components/projects-section.tsx
     ./app/page.tsx
-[00:13:07.777] Server  LOG      ✓ Compiled in 25ms
-[00:13:25.471] Server  LOG      ✓ Compiled in 28ms
-[00:15:43.511] Server  LOG      ✓ Compiled in 23ms
-[00:15:57.924] Server  LOG      ✓ Compiled in 49ms
-[00:16:09.874] Server  LOG      ✓ Compiled in 33ms
-[00:16:10.063] Server  LOG      ✓ Compiled in 40ms
-[00:16:22.087] Server  LOG      ✓ Compiled in 21ms
-[00:16:45.576] Server  LOG      ✓ Compiled in 23ms
-[00:17:01.149] Server  LOG      ✓ Compiled in 21ms
-[00:17:46.898] Server  LOG      ✓ Compiled in 40ms
-[00:17:47.900] Browser ERROR   ./components/projects-section.tsx:122:14
+[01:09:48.854] Server  LOG      ✓ Compiled in 30ms
+[01:09:49.035] Browser ERROR   ./components/projects-section.tsx:37:9
 Parsing ecmascript source code failed
-  120 |   return (
-  121 |     <></>
-> 122 |     <section id="projects" className="py-32 px-6 lg:px-8" ref={sectionRef}>
-      |              ^^
-  123 |       <div className="max-w-6xl mx-auto">
-  124 |         <h2
-  125 |           className={`text-4xl font-bold uppercase tracking-wider text-muted-foreground mb-16 transition-all duration-700 text-center md:text-left ${
+  35 |       duration: "6 개월",
+  36 |       description:
+> 37 |         "DineQ는 매장 QR 주문 서비스로, 고객의 주문 편의성을 높이고 점주의 운영 효율을 개선하기 위해 개발되었습니다. 빠른 서비스 도입을 위해 Next.js 기반의 React Native WebView 방식을 채택하여 웹과 앱 환경을 동시에 지원하며 개발 기간을 크게 단축했습니다.
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  38 |
+  39 | 또한 “주문 수신이 늦게 들어온다”는 사용자 피드백을 기반으로 기존의 polling 구조를 WebSocket 기반 실시간 통신으로 전환했습니다. 이를 통해 최악의 경우 약 25배, 평균 12배 이상 빠른 응답 속도 개선을 이루었으며, 서버로 전송되는 불필요한 요청도 약 90% 감소시키는 성과를 얻었습니다.
+  40 |
 
-Expected ',', got 'id'
+Unterminated string constant
 
 Import trace:
   Server Component:
     ./components/projects-section.tsx
     ./app/page.tsx
-[00:17:49.895] Browser ERROR   ./components/projects-section.tsx:123:14
+[01:10:39.035] Browser ERROR   ./components/projects-section.tsx:37:9
 Parsing ecmascript source code failed
-  121 |     <>
-  122 |     </>
-> 123 |     <section id="projects" className="py-32 px-6 lg:px-8" ref={sectionRef}>
-      |              ^^
-  124 |       <div className="max-w-6xl mx-auto">
-  125 |         <h2
-  126 |           className={`text-4xl font-bold uppercase tracking-wider text-muted-foreground mb-16 transition-all duration-700 text-center md:text-left ${
+  35 |       duration: "6 개월",
+  36 |       description:
+> 37 |         "DineQ는 매장 QR 주문 서비스로, 고객의 주문 편의성을 높이고 점주의 운영 효율을 개선하기 위해 개발되었습니다. 빠른 서비스 도입을 위해 Next.js 기반의 React Native WebView 방식을 채택하여 웹과 앱 환경을 동시에 지원하며 개발 기간을 크게 단축했습니다.
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  38 |
+  39 | 또한 “주문 수신이 늦게 들어온다”는 사용자 피드백을 기반으로 기존의 polling 구조를 WebSocket 기반 실시간 통신으로 전환했습니다. 이를 통해 최악의 경우 약 25배, 평균 12배 이상 빠른 응답 속도 개선을 이루었으며, 서버로 전송되는 불필요한 요청도 약 90% 감소시키는 성과를 얻었습니다.
+  40 |
 
-Expected ',', got 'id'
+Unterminated string constant
 
 Import trace:
   Server Component:
     ./components/projects-section.tsx
     ./app/page.tsx
-[00:17:52.217] Server  LOG      ✓ Compiled in 47ms
-[00:17:52.894] Browser ERROR   ./components/projects-section.tsx:123:14
+[01:10:48.851] Server  LOG      ✓ Compiled in 24ms
+[01:10:55.120] Server  LOG      ✓ Compiled in 25ms
+[01:10:59.663] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:13:24.142] Server  LOG      ✓ Compiled in 38ms
+[01:13:27.601] Server  LOG      ✓ Compiled in 27ms
+[01:13:28.916] Server  LOG      ✓ Compiled in 56ms
+[01:13:33.554] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:13:48.972] Server  LOG      ✓ Compiled in 29ms
+[01:13:51.609] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:15:46.110] Server  LOG      ✓ Compiled in 31ms
+[01:15:49.421] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:08:43.581] Server  LOG      ✓ Compiled in 55ms
+[02:08:44.522] Browser ERROR   ./components/projects-section.tsx:52:9
 Parsing ecmascript source code failed
-  121 |     <>
-  122 |     </>
-> 123 |     <section id="projects" className="py-32 px-6 lg:px-8" ref={sectionRef}>
-      |              ^^
-  124 |       <div className="max-w-6xl mx-auto">
-  125 |         <h2
-  126 |           className={`text-4xl font-bold uppercase tracking-wider text-muted-foreground mb-16 transition-all duration-700 text-center md:text-left ${
+  50 |       duration: "8 개월",
+  51 |       description:
+> 52 |         "HonorsParking은
+     |         ^^^^^^^^^^^^^^^^^
+  53 | 주차장 이용 과정에서 발생하는 불편함을 해결하고, 사용자와 관리자 모두에게 효율적인 주차 경험을 제공하기 위해 개발한 스마트 주차 관리 서비스입니다.
+  54 |
+  55 | 단순한 CRUD 프로젝트가 아니라,
 
-Expected ',', got 'id'
+Unterminated string constant
 
 Import trace:
   Server Component:
     ./components/projects-section.tsx
     ./app/page.tsx
-[00:17:55.665] Server  LOG      ✓ Compiled in 20ms
-[00:17:55.894] Browser ERROR   ./components/projects-section.tsx:232:1
+[02:08:55.499] Server  LOG      ✓ Compiled in 51ms
+[02:08:56.521] Browser ERROR   ./components/projects-section.tsx:52:9
 Parsing ecmascript source code failed
-  230 |     )}
-  231 |   );
-> 232 | }
-      | ^
-  233 |
+  50 |       duration: "8 개월",
+  51 |       description:
+> 52 |         "HonorsParking은
+     |         ^^^^^^^^^^^^^^^^^
+  53 | 주차장 이용 과정에서 발생하는 불편함을 해결하고, 사용자와 관리자 모두에게 효율적인 주차 경험을 제공하기 위해 개발한 스마트 주차 관리 서비스입니다.
+  54 |
+  55 | 단순한 CRUD 프로젝트가 아니라,
 
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Unterminated string constant
 
 Import trace:
   Server Component:
     ./components/projects-section.tsx
     ./app/page.tsx
-[00:18:08.557] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:18:15.525] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:18:44.259] Server  LOG      ✓ Compiled in 25ms
-[00:18:54.208] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:37.213] Server  LOG      ✓ Compiled in 39ms
-[00:19:37.894] Browser ERROR   ./components/projects-section.tsx:136:15
+[02:11:19.093] Browser ERROR   ./components/projects-section.tsx:52:9
 Parsing ecmascript source code failed
-  134 |           <div className="grid md:grid-cols-2 gap-8">
-  135 |             {projects.map((project, index) => (
-> 136 |               const statusConfig = getStatusConfig(project.status)
-      |               ^^^^^
-  137 |               <div
-  138 |                 key={index}
-  139 |                 className={`group cursor-pointer transition-all duration-700 text-center md:text-left ${
+  50 |       duration: "8 개월",
+  51 |       description:
+> 52 |         "HonorsParking은
+     |         ^^^^^^^^^^^^^^^^^
+  53 | 주차장 이용 과정에서 발생하는 불편함을 해결하고, 사용자와 관리자 모두에게 효율적인 주차 경험을 제공하기 위해 개발한 스마트 주차 관리 서비스입니다.
+  54 |
+  55 | 단순한 CRUD 프로젝트가 아니라,
 
-Expected '</', got 'const'
+Unterminated string constant
 
 Import trace:
   Server Component:
     ./components/projects-section.tsx
     ./app/page.tsx
-[00:19:37.895] Browser ERROR   ./components/projects-section.tsx:136:15
+[02:11:34.964] Browser ERROR   ./components/projects-section.tsx:52:9
 Parsing ecmascript source code failed
-  134 |           <div className="grid md:grid-cols-2 gap-8">
-  135 |             {projects.map((project, index) => (
-> 136 |               const statusConfig = getStatusConfig(project.status)
-      |               ^^^^^
-  137 |               <div
-  138 |                 key={index}
-  139 |                 className={`group cursor-pointer transition-all duration-700 text-center md:text-left ${
+  50 |       duration: "8 개월",
+  51 |       description:
+> 52 |         "HonorsParking은
+     |         ^^^^^^^^^^^^^^^^^
+  53 | 주차장 이용 과정에서 발생하는 불편함을 해결하고, 사용자와 관리자 모두에게 효율적인 주차 경험을 제공하기 위해 개발한 스마트 주차 관리 서비스입니다.
+  54 |
+  55 | 단순한 CRUD 프로젝트가 아니라,
 
-Expected '</', got 'const'
+Unterminated string constant
 
 Import trace:
   Server Component:
     ./components/projects-section.tsx
     ./app/page.tsx
-[00:19:45.993] Server  LOG      ✓ Compiled in 30ms
-[00:19:46.893] Browser ERROR   ./components/projects-section.tsx:136:15
+[02:12:25.794] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:12:59.173] Server  LOG      ✓ Compiled in 38ms
+[02:13:03.874] Server  LOG      ✓ Compiled in 27ms
+[02:13:07.934] Server  LOG      ✓ Compiled in 24ms
+[02:19:35.870] Server  LOG      ✓ Compiled in 28ms
+[02:19:39.865] Server  LOG      ✓ Compiled in 18ms
+[02:19:55.247] Server  LOG      ✓ Compiled in 32ms
+[02:19:56.987] Server  LOG      ✓ Compiled in 25ms
+[02:20:02.823] Server  LOG      ✓ Compiled in 23ms
+[02:20:05.370] Server  LOG      ✓ Compiled in 27ms
+[02:20:16.282] Server  LOG      ✓ Compiled in 17ms
+[02:20:21.680] Server  LOG      ✓ Compiled in 31ms
+[02:20:23.884] Server  LOG      ✓ Compiled in 26ms
+[02:20:33.170] Server  LOG      ✓ Compiled in 22ms
+[02:20:35.204] Server  LOG      ✓ Compiled in 18ms
+[02:20:51.041] Server  LOG      ✓ Compiled in 32ms
+[02:20:51.434] Browser ERROR   ./components/projects-section.tsx:63:69
 Parsing ecmascript source code failed
-  134 |           <div className="grid md:grid-cols-2 gap-8">
-  135 |             {projects.map((project, index) => (
-> 136 |               const statusConfig = getStatusConfig(project.status)
-      |               ^^^^^
-  137 |               return()
-  138 |               <div
-  139 |                 key={index}
+  61 |       status: "completed",
+  62 |       teamSize: 5,
+> 63 |       techStack: ["Next.js", "Responsive Web", "TailwindCSS", "SEO"]],
+     |                                                                     ^
+  64 |       duration: "4 개월",
+  65 |       description: [
+  66 |         "모여봐요는 팀 프로젝트나 모임에서 발생하는 의사결정을 빠르고 직관적으로 해결하기 위해 개발한 실시간 투표 서비스입니다. 투표 생성부터 참여, 결과 집계까지의 전 과정을 하나의 사용자 경험으로 설계했으며, 투표·선택지·참여자·응답 데이터를 명확히 분리해 도메인 구조를 구성했습니다.",
 
-Expected '</', got 'const'
+Expected ',', got ']'
 
 Import trace:
   Server Component:
     ./components/projects-section.tsx
     ./app/page.tsx
-[00:19:46.894] Browser ERROR   ./components/projects-section.tsx:136:15
-Parsing ecmascript source code failed
-  134 |           <div className="grid md:grid-cols-2 gap-8">
-  135 |             {projects.map((project, index) => (
-> 136 |               const statusConfig = getStatusConfig(project.status)
-      |               ^^^^^
-  137 |               return()
-  138 |               <div
-  139 |                 key={index}
-
-Expected '</', got 'const'
-
-Import trace:
-  Server Component:
-    ./components/projects-section.tsx
-    ./app/page.tsx
-[00:19:54.894] Browser ERROR   ./components/projects-section.tsx:136:15
-Parsing ecmascript source code failed
-  134 |           <div className="grid md:grid-cols-2 gap-8">
-  135 |             {projects.map((project, index) => (
-> 136 |               const statusConfig = getStatusConfig(project.status)
-      |               ^^^^^
-  137 |               return(
-  138 |               <div
-  139 |                 key={index}
-
-Expected '</', got 'const'
-
-Import trace:
-  Server Component:
-    ./components/projects-section.tsx
-    ./app/page.tsx
-[00:19:54.895] Browser ERROR   ./components/projects-section.tsx:136:15
-Parsing ecmascript source code failed
-  134 |           <div className="grid md:grid-cols-2 gap-8">
-  135 |             {projects.map((project, index) => (
-> 136 |               const statusConfig = getStatusConfig(project.status)
-      |               ^^^^^
-  137 |               return(
-  138 |               <div
-  139 |                 key={index}
-
-Expected '</', got 'const'
-
-Import trace:
-  Server Component:
-    ./components/projects-section.tsx
-    ./app/page.tsx
-[00:19:55.894] Browser ERROR   ./components/projects-section.tsx:136:15
-Parsing ecmascript source code failed
-  134 |           <div className="grid md:grid-cols-2 gap-8">
-  135 |             {projects.map((project, index) => (
-> 136 |               const statusConfig = getStatusConfig(project.status)
-      |               ^^^^^
-  137 |               return(
-  138 |               <div
-  139 |                 key={index}
-
-Expected '</', got 'const'
-
-Import trace:
-  Server Component:
-    ./components/projects-section.tsx
-    ./app/page.tsx
-[00:19:55.895] Browser ERROR   ./components/projects-section.tsx:136:15
-Parsing ecmascript source code failed
-  134 |           <div className="grid md:grid-cols-2 gap-8">
-  135 |             {projects.map((project, index) => (
-> 136 |               const statusConfig = getStatusConfig(project.status)
-      |               ^^^^^
-  137 |               return(
-  138 |               <div
-  139 |                 key={index}
-
-Expected '</', got 'const'
-
-Import trace:
-  Server Component:
-    ./components/projects-section.tsx
-    ./app/page.tsx
-[00:20:02.690] Server  LOG      ✓ Compiled in 23ms
-[00:20:25.747] Server  LOG      ✓ Compiled in 21ms
-[00:20:30.769] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:33.037] Browser ERROR   uncaughtError: ReferenceError: X is not defined
-[00:20:37.066] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:21:16.670] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:21:18.558] Browser ERROR   uncaughtError: ReferenceError: X is not defined
-[00:21:50.484] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:21:50.563] Server  LOG      ✓ Compiled in 37ms
-[00:21:50.784] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:21:53.131] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:23:02.933] Server  LOG      ✓ Compiled in 20ms
-[00:24:11.993] Server  LOG      ✓ Compiled in 75ms
-[00:24:12.097] Browser ERROR   ./components/projects-section.tsx:13:3
-Parsing ecmascript source code failed
-  11 |   ("use client");
-  12 |
-> 13 |   import { useEffect, useRef, useState } from "react";
-     |   ^^^^^^
-  14 |   import { X } from "lucide-react";
-  15 |
-  16 |   export function ProjectsSection() {
-
-'import', and 'export' cannot be used outside of module code
-
-Import trace:
-  Server Component:
-    ./components/projects-section.tsx
-    ./app/page.tsx
-[00:24:12.894] Browser ERROR   ./components/projects-section.tsx:13:3
-Parsing ecmascript source code failed
-  11 |   ("use client");
-  12 |
-> 13 |   import { useEffect, useRef, useState } from "react";
-     |   ^^^^^^
-  14 |   import { X } from "lucide-react";
-  15 |
-  16 |   export function ProjectsSection() {
-
-'import', and 'export' cannot be used outside of module code
-
-Import trace:
-  Server Component:
-    ./components/projects-section.tsx
-    ./app/page.tsx
-[00:24:14.382] Browser ERROR   ./components/projects-section.tsx:13:1
-Parsing ecmascript source code failed
-  11 |   "use client";
-  12 |
-> 13 | import { useEffect, useRef, useState } from "react";
-     | ^^^^^^
-  14 | import { X } from "lucide-react";
-  15 |
-  16 | export function ProjectsSection() {
-
-'import', and 'export' cannot be used outside of module code
-
-Import trace:
-  Server Component:
-    ./components/projects-section.tsx
-    ./app/page.tsx
-[00:24:14.894] Browser ERROR   ./components/projects-section.tsx:13:1
-Parsing ecmascript source code failed
-  11 |   "use client";
-  12 |
-> 13 | import { useEffect, useRef, useState } from "react";
-     | ^^^^^^
-  14 | import { X } from "lucide-react";
-  15 |
-  16 | export function ProjectsSection() {
-
-'import', and 'export' cannot be used outside of module code
-
-Import trace:
-  Server Component:
-    ./components/projects-section.tsx
-    ./app/page.tsx
-[00:24:16.718] Server  LOG      ✓ Compiled in 30ms
-[00:24:26.300] Server  LOG      ✓ Compiled in 27ms
-[00:24:29.466] Server  LOG      ✓ Compiled in 21ms
-[00:24:30.680] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:25:43.491] Server  LOG      ✓ Compiled in 31ms
-[00:25:48.037] Server  LOG      ✓ Compiled in 17ms
-[00:26:18.510] Server  LOG      ✓ Compiled in 47ms
-[00:26:30.927] Server  LOG      ✓ Compiled in 24ms
-[00:26:31.870] Server  LOG      ✓ Compiled in 32ms
-[00:26:58.242] Server  LOG      ✓ Compiled in 28ms
-[00:26:58.349] Browser ERROR   ./components/projects-section.tsx:149:66
-Parsing ecmascript source code failed
-  147 |           <div className="grid md:grid-cols-2 gap-8">
-  148 |             {projects.map((project, index) => {
-> 149 |               const statusConfig = getStatusConfig(project.status: Pro);
-      |                                                                  ^
-  150 |               return (
-  151 |                 <div
-  152 |                   key={index}
-
-Expected '</', got ':'
-
-Import trace:
-  Server Component:
-    ./components/projects-section.tsx
-    ./app/page.tsx
-[00:26:58.894] Browser ERROR   ./components/projects-section.tsx:149:66
-Parsing ecmascript source code failed
-  147 |           <div className="grid md:grid-cols-2 gap-8">
-  148 |             {projects.map((project, index) => {
-> 149 |               const statusConfig = getStatusConfig(project.status: Pro);
-      |                                                                  ^
-  150 |               return (
-  151 |                 <div
-  152 |                   key={index}
-
-Expected '</', got ':'
-
-Import trace:
-  Server Component:
-    ./components/projects-section.tsx
-    ./app/page.tsx
-[00:27:10.686] Server  LOG      ✓ Compiled in 21ms
-[00:27:10.788] Browser ERROR   ./components/projects-section.tsx:159:60
-Parsing ecmascript source code failed
-  157 |                   }`}
-  158 |                   style={{ transitionDelay: `${(index + 1) * 100}ms` }}
-> 159 |                   onClick={() => setSelectedProject(project: ProjectStatus)}
-      |                                                            ^
-  160 |                 >
-  161 |                   <div className="relative overflow-hidden rounded-lg mb-4 bg-muted aspect-[3/2]">
-  162 |                     <img
-
-Expected '</', got ':'
-
-Import trace:
-  Server Component:
-    ./components/projects-section.tsx
-    ./app/page.tsx
-[00:27:10.893] Browser ERROR   ./components/projects-section.tsx:159:60
-Parsing ecmascript source code failed
-  157 |                   }`}
-  158 |                   style={{ transitionDelay: `${(index + 1) * 100}ms` }}
-> 159 |                   onClick={() => setSelectedProject(project: ProjectStatus)}
-      |                                                            ^
-  160 |                 >
-  161 |                   <div className="relative overflow-hidden rounded-lg mb-4 bg-muted aspect-[3/2]">
-  162 |                     <img
-
-Expected '</', got ':'
-
-Import trace:
-  Server Component:
-    ./components/projects-section.tsx
-    ./app/page.tsx
-[00:27:25.895] Server  LOG      ✓ Compiled in 27ms
-[00:27:25.998] Browser ERROR   ./components/projects-section.tsx:159:60
-Parsing ecmascript source code failed
-  157 |                   }`}
-  158 |                   style={{ transitionDelay: `${(index + 1) * 100}ms` }}
-> 159 |                   onClick={() => setSelectedProject(project: Project)}
-      |                                                            ^
-  160 |                 >
-  161 |                   <div className="relative overflow-hidden rounded-lg mb-4 bg-muted aspect-[3/2]">
-  162 |                     <img
-
-Expected '</', got ':'
-
-Import trace:
-  Server Component:
-    ./components/projects-section.tsx
-    ./app/page.tsx
-[00:27:26.894] Browser ERROR   ./components/projects-section.tsx:159:60
-Parsing ecmascript source code failed
-  157 |                   }`}
-  158 |                   style={{ transitionDelay: `${(index + 1) * 100}ms` }}
-> 159 |                   onClick={() => setSelectedProject(project: Project)}
-      |                                                            ^
-  160 |                 >
-  161 |                   <div className="relative overflow-hidden rounded-lg mb-4 bg-muted aspect-[3/2]">
-  162 |                     <img
-
-Expected '</', got ':'
-
-Import trace:
-  Server Component:
-    ./components/projects-section.tsx
-    ./app/page.tsx
-[00:27:37.251] Server  LOG      ✓ Compiled in 28ms
-[00:27:37.353] Browser ERROR   ./components/projects-section.tsx:149:66
-Parsing ecmascript source code failed
-  147 |           <div className="grid md:grid-cols-2 gap-8">
-  148 |             {projects.map((project, index) => {
-> 149 |               const statusConfig = getStatusConfig(project.status: Pro);
-      |                                                                  ^
-  150 |               return (
-  151 |                 <div
-  152 |                   key={index}
-
-Expected '</', got ':'
-
-Import trace:
-  Server Component:
-    ./components/projects-section.tsx
-    ./app/page.tsx
-[00:27:37.895] Browser ERROR   ./components/projects-section.tsx:149:66
-Parsing ecmascript source code failed
-  147 |           <div className="grid md:grid-cols-2 gap-8">
-  148 |             {projects.map((project, index) => {
-> 149 |               const statusConfig = getStatusConfig(project.status: Pro);
-      |                                                                  ^
-  150 |               return (
-  151 |                 <div
-  152 |                   key={index}
-
-Expected '</', got ':'
-
-Import trace:
-  Server Component:
-    ./components/projects-section.tsx
-    ./app/page.tsx
-[00:27:54.427] Server  LOG      ✓ Compiled in 26ms

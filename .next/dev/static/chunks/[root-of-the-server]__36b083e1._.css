@@ -663,6 +663,10 @@
     bottom: calc(var(--spacing) * 0);
   }
 
+  .bottom-2 {
+    bottom: calc(var(--spacing) * 2);
+  }
+
   .-left-12 {
     left: calc(var(--spacing) * -12);
   }
@@ -705,6 +709,10 @@
 
   .z-\[1\] {
     z-index: 1;
+  }
+
+  .z-\[60\] {
+    z-index: 60;
   }
 
   .z-\[100\] {
@@ -893,7 +901,7 @@
     field-sizing: content;
   }
 
-  .aspect-3\/2, .aspect-\[3\/2\] {
+  .aspect-3\/2 {
     aspect-ratio: 3 / 2;
   }
 
@@ -1034,10 +1042,6 @@
     height: 1.15rem;
   }
 
-  .h-\[2px\] {
-    height: 2px;
-  }
-
   .h-\[calc\(100\%-1px\)\] {
     height: calc(100% - 1px);
   }
@@ -1130,6 +1134,10 @@
     width: calc(var(--spacing) * 1);
   }
 
+  .w-1\.5 {
+    width: calc(var(--spacing) * 1.5);
+  }
+
   .w-2 {
     width: calc(var(--spacing) * 2);
   }
@@ -1154,6 +1162,10 @@
     width: calc(var(--spacing) * 5);
   }
 
+  .w-6 {
+    width: calc(var(--spacing) * 6);
+  }
+
   .w-8 {
     width: calc(var(--spacing) * 8);
   }
@@ -1172,10 +1184,6 @@
 
   .w-72 {
     width: calc(var(--spacing) * 72);
-  }
-
-  .w-\[2px\] {
-    width: 2px;
   }
 
   .w-\[100px\] {
@@ -1224,6 +1232,10 @@
 
   .max-w-\[calc\(100\%-2rem\)\] {
     max-width: calc(100% - 2rem);
+  }
+
+  .max-w-full {
+    max-width: 100%;
   }
 
   .max-w-max {
@@ -1420,6 +1432,10 @@
     touch-action: none;
   }
 
+  .resize {
+    resize: both;
+  }
+
   .resize-none {
     resize: none;
   }
@@ -1446,6 +1462,14 @@
 
   .grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .grid-cols-6 {
@@ -1823,6 +1847,16 @@
     }
   }
 
+  .bg-black\/90 {
+    background-color: #000000e6;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-black\/90 {
+      background-color: color-mix(in oklab, var(--color-black) 90%, transparent);
+    }
+  }
+
   .bg-blue-500\/10 {
     background-color: #3080ff1a;
   }
@@ -1939,6 +1973,16 @@
     background-color: var(--color-white);
   }
 
+  .bg-white\/50 {
+    background-color: #ffffff80;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-white\/50 {
+      background-color: color-mix(in oklab, var(--color-white) 50%, transparent);
+    }
+  }
+
   .bg-linear-to-b {
     --tw-gradient-position: to bottom;
   }
@@ -1950,11 +1994,6 @@
   }
 
   .bg-linear-to-b {
-    background-image: linear-gradient(var(--tw-gradient-stops));
-  }
-
-  .bg-gradient-to-b {
-    --tw-gradient-position: to bottom in oklab;
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
 
@@ -3125,6 +3164,18 @@
   }
 
   @media (hover: hover) {
+    .hover\:bg-black\/70:hover {
+      background-color: #000000b3;
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:bg-black\/70:hover {
+        background-color: color-mix(in oklab, var(--color-black) 70%, transparent);
+      }
+    }
+  }
+
+  @media (hover: hover) {
     .hover\:bg-destructive\/90:hover {
       background-color: var(--destructive);
     }
@@ -3187,6 +3238,30 @@
   @media (hover: hover) {
     .hover\:bg-sidebar-accent:hover {
       background-color: var(--sidebar-accent);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:bg-white\/10:hover {
+      background-color: #ffffff1a;
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:bg-white\/10:hover {
+        background-color: color-mix(in oklab, var(--color-white) 10%, transparent);
+      }
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:bg-white\/75:hover {
+      background-color: #ffffffbf;
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:bg-white\/75:hover {
+        background-color: color-mix(in oklab, var(--color-white) 75%, transparent);
+      }
     }
   }
 
@@ -4477,6 +4552,12 @@
   }
 
   @media (min-width: 40rem) {
+    .sm\:grid-cols-5 {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 40rem) {
     .sm\:flex-col {
       flex-direction: column;
     }
@@ -4581,12 +4662,6 @@
   @media (min-width: 48rem) {
     .md\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
-
-  @media (min-width: 48rem) {
-    .md\:grid-cols-3 {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
 
@@ -4773,6 +4848,10 @@
 
   .dark\:bg-transparent:is(.dark *) {
     background-color: #0000;
+  }
+
+  .dark\:bg-white:is(.dark *) {
+    background-color: var(--color-white);
   }
 
   .dark\:text-blue-400:is(.dark *) {

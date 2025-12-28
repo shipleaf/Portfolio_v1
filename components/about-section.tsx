@@ -49,7 +49,7 @@ export function AboutSection() {
     },
     {
       name: "Naver Cloud",
-      logo: "https://www.ncloud.com/resources/img/common/logo_ncloud.png",
+      logo: "https://velog.velcdn.com/images/jae9380/post/6f8f5de4-bf4f-4dfe-9852-360e447dcb85/image.png",
     },
     {
       name: "Firebase",
@@ -152,11 +152,11 @@ export function AboutSection() {
             <h3 className="text-sm uppercase tracking-wider text-muted-foreground mb-6">
               Skills & Technologies
             </h3>
-            <div className="grid grid-cols-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
               {skills.map((skill) => (
                 <div
                   key={skill.name}
-                  className="relative w-14 h-14 bg-card rounded-lg flex items-center justify-center transition-all duration-200 hover:scale-110 hover:shadow-lg border border-border cursor-pointer"
+                  className="relative w-14 h-14 bg-card dark:bg-white rounded-lg flex items-center justify-center transition-all duration-200 hover:scale-110 hover:shadow-lg border border-border cursor-pointer"
                   onMouseMove={(e) => handleMouseMove(e, skill.name)}
                   onMouseLeave={handleMouseLeave}
                 >

@@ -14,26 +14,77 @@ export function ScrollIndicator() {
   const [activeSection, setActiveSection] = useState("hero")
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveSection(entry.target.id)
-          }
+    const sectionElements = sections.map(({ id }) => ({
+      id,
+      element: document.getElementById(id),
+    })).filter(({ element }) => element !== null)
+
+    const updateActiveSection = () => {
+      const scrollY = window.scrollY
+      const viewportHeight = window.innerHeight
+      const viewportCenter = scrollY + viewportHeight / 2
+
+      // 스크롤이 맨 위에 있거나 hero 섹션이 보일 때 hero를 활성화
+      const heroElement = document.getElementById("hero")
+      if (heroElement) {
+        const heroRect = heroElement.getBoundingClientRect()
+        const heroBottom = scrollY + heroRect.bottom
+        
+        // 스크롤이 hero 섹션 내부에 있거나 매우 위에 있을 때
+        if (scrollY < heroBottom - viewportHeight * 0.3) {
+          setActiveSection("hero")
+          return
+        }
+      }
+
+      let closestSection = "hero"
+      let minDistance = Infinity
+
+      sectionElements.forEach(({ id, element }) => {
+        if (!element || id === "hero") return
+
+        const rect = element.getBoundingClientRect()
+        const elementTop = window.scrollY + rect.top
+        const elementCenter = elementTop + rect.height / 2
+
+        // 뷰포트 중앙과 섹션 중앙 사이의 거리
+        const distance = Math.abs(viewportCenter - elementCenter)
+
+        // 뷰포트 중앙이 섹션 범위 내에 있으면 우선순위를 높임
+        const isInRange = viewportCenter >= elementTop && viewportCenter <= elementTop + rect.height
+        const adjustedDistance = isInRange ? distance * 0.5 : distance
+
+        if (adjustedDistance < minDistance) {
+          minDistance = adjustedDistance
+          closestSection = id
+        }
+      })
+
+      setActiveSection(closestSection)
+    }
+
+    // 초기 설정
+    updateActiveSection()
+
+    // 스크롤 이벤트 리스너
+    let ticking = false
+    const handleScroll = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          updateActiveSection()
+          ticking = false
         })
-      },
-      {
-        threshold: 0.5,
-        rootMargin: "-20% 0px -20% 0px",
-      },
-    )
+        ticking = true
+      }
+    }
 
-    sections.forEach(({ id }) => {
-      const element = document.getElementById(id)
-      if (element) observer.observe(element)
-    })
+    window.addEventListener("scroll", handleScroll, { passive: true })
+    window.addEventListener("resize", updateActiveSection)
 
-    return () => observer.disconnect()
+    return () => {
+      window.removeEventListener("scroll", handleScroll)
+      window.removeEventListener("resize", updateActiveSection)
+    }
   }, [])
 
   const scrollToSection = (id: string) => {
