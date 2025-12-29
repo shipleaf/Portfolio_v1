@@ -8,6 +8,11 @@ export function AboutSection() {
   const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
   const sectionRef = useRef<HTMLElement>(null);
 
+  const certifications = [
+    { name: "정보처리기사", issuer: "한국산업인력공단", date: "2025.12" },
+    { name: "SQLD", issuer: "한국데이터산업진흥원", date: "2024.11" },
+  ];
+
   const skills = [
     {
       name: "HTML",
@@ -117,12 +122,12 @@ export function AboutSection() {
         >
           About Me
         </h2>
-        <div className="grid md:grid-cols-4 gap-16">
-          <div className="max-w-2xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-16">
+          <div className="max-w-2xl mx-auto md:mx-0">
             <img src="/shipleaf.jpg" alt="" />
           </div>
           <div
-            className={`space-y-6 md:col-span-2 transition-all duration-700 delay-100 text-center md:text-left ${
+            className={`space-y-6 lg:col-span-2 transition-all duration-700 delay-100 text-center md:text-left ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-4"
@@ -136,14 +141,14 @@ export function AboutSection() {
             </p>
             <p className="text-lg leading-relaxed text-muted-foreground">
               프론트엔드는 사용자와 서비스가 가장 먼저 만나는 영역입니다. 그래서
-              저는 “왜 이 UI여야 하는가”, “이 흐름이 사용자에게 자연스러운가”를
+              저는 "왜 이 UI여야 하는가", "이 흐름이 사용자에게 자연스러운가"를
               끊임없이 질문하며, 사용자가 서비스를 처음 접하는 순간을 설계한다는
               책임감을 가지고 더 나은 경험을 만드는 개발자로 성장하고자 합니다.
             </p>
           </div>
 
           <div
-            className={`transition-all duration-700 delay-200 text-center md:text-left ${
+            className={`md:col-span-2 lg:col-span-1 transition-all duration-700 delay-200 text-center md:text-left ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-4"
@@ -152,7 +157,7 @@ export function AboutSection() {
             <h3 className="text-sm uppercase tracking-wider text-muted-foreground mb-6">
               Skills & Technologies
             </h3>
-            <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-3 xl:grid-cols-4 gap-4">
               {skills.map((skill) => (
                 <div
                   key={skill.name}
@@ -167,6 +172,31 @@ export function AboutSection() {
                   />
                 </div>
               ))}
+            </div>
+
+            <div className="mt-8">
+              <h3 className="text-sm uppercase tracking-wider text-muted-foreground mb-4">
+                Certifications
+              </h3>
+              <div className="flex flex-wrap gap-3 md:flex-col md:gap-2">
+                {certifications.map((cert, index) => (
+                  <div key={index} className="text-sm text-muted-foreground">
+                    <span className="font-medium">{cert.name}</span>
+                    {cert.issuer && (
+                      <span className="text-muted-foreground/70">
+                        {" "}
+                        · {cert.issuer}
+                      </span>
+                    )}
+                    {cert.date && (
+                      <span className="text-muted-foreground/70">
+                        {" "}
+                        · {cert.date}
+                      </span>
+                    )}
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
