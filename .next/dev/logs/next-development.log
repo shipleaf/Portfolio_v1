@@ -1,19 +1,189 @@
-[00:00:00.717] Server  LOG      ✓ Ready in 493ms
-[00:00:04.455] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.631] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.052] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:14.077] Server  LOG      ✓ Compiled in 128ms
-[00:03:14.149] Browser ERROR   uncaughtError: ReferenceError: certifications is not defined
-[00:03:14.915] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:03:14.994] Server  LOG      ✓ Compiled in 29ms
-[00:03:15.106] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:31.214] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:28.898] Server  LOG      ✓ Compiled in 75ms
-[00:07:39.551] Server  LOG      ✓ Compiled in 74ms
-[00:07:44.090] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:33.376] Server  LOG      ✓ Compiled in 112ms
-[00:08:48.585] Server  LOG      ✓ Compiled in 30ms
-[00:09:08.889] Server  LOG      ✓ Compiled in 46ms
-[00:09:09.357] Server  LOG      ✓ Compiled in 50ms
-[00:09:17.614] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:56.868] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.446] Server  LOG      ✓ Ready in 3s
+[00:01:02.410] Server  LOG      ○ Compiling / ...
+[00:01:04.518] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:21.079] Server  LOG      ✓ Compiled in 185ms
+[00:02:23.449] Server  LOG      ✓ Compiled in 58ms
+[00:02:27.768] Server  LOG      ✓ Compiled in 129ms
+[00:02:32.038] Server  LOG      ✓ Compiled in 58ms
+[00:02:33.333] Server  LOG      ✓ Compiled in 110ms
+[00:02:42.398] Server  LOG      ✓ Compiled in 106ms
+[00:32:33.776] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:34.500] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:34.929] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:51:13.380] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:56.087] Server  LOG      ✓ Compiled in 153ms
+[00:55:56.959] Browser ERROR   uncaughtError: ReferenceError: X is not defined
+[00:55:59.394] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:55:59.590] Server  ERROR   C:\shipleaf\05_Portfolio\Portfolio_v1\.next\dev\server\chunks\ssr\_bad3d14e._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:55:59.593] Server  ERROR    ⨯ ReferenceError: enlargedImage is not defined
+[00:55:59.608] Server  LOG      ✓ Compiled in 60ms
+[00:55:59.795] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:59.961] Browser ERROR   uncaughtError: ReferenceError: enlargedImage is not defined
+[00:55:59.962] Browser ERROR   uncaughtError: ReferenceError: enlargedImage is not defined
+[00:56:00.980] Browser ERROR   uncaughtError: ReferenceError: enlargedImage is not defined
+[00:56:04.439] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:56:04.442] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:56:04.444] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:56:04.544] Server  ERROR   C:\shipleaf\05_Portfolio\Portfolio_v1\.next\dev\server\chunks\ssr\_bad3d14e._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:56:04.545] Server  ERROR    ⨯ ReferenceError: enlargedImage is not defined
+[00:56:04.574] Server  LOG      ✓ Compiled in 60ms
+[00:56:04.599] Server  ERROR   C:\shipleaf\05_Portfolio\Portfolio_v1\.next\dev\server\chunks\ssr\_bad3d14e._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:56:04.599] Server  ERROR    ⨯ ReferenceError: enlargedImage is not defined
+[00:56:04.667] Server  ERROR   C:\shipleaf\05_Portfolio\Portfolio_v1\.next\dev\server\chunks\ssr\_bad3d14e._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:56:04.667] Server  ERROR    ⨯ ReferenceError: enlargedImage is not defined
+[00:56:04.867] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:04.912] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:05.039] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:05.961] Browser ERROR   uncaughtError: ReferenceError: enlargedImage is not defined
+[00:56:05.963] Browser ERROR   uncaughtError: ReferenceError: enlargedImage is not defined
+[00:56:05.967] Browser ERROR   uncaughtError: ReferenceError: enlargedImage is not defined
+[00:56:12.170] Server  LOG      ✓ Compiled in 76ms
+[00:56:12.175] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:56:12.180] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:56:12.183] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:56:12.372] Server  ERROR   C:\shipleaf\05_Portfolio\Portfolio_v1\.next\dev\server\chunks\ssr\_3727469d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:56:12.373] Server  ERROR    ⨯ ReferenceError: enlargedImage is not defined
+[00:56:12.425] Server  ERROR   C:\shipleaf\05_Portfolio\Portfolio_v1\.next\dev\server\chunks\ssr\_3727469d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:56:12.425] Server  ERROR    ⨯ ReferenceError: enlargedImage is not defined
+[00:56:12.491] Server  ERROR   C:\shipleaf\05_Portfolio\Portfolio_v1\.next\dev\server\chunks\ssr\_3727469d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:56:12.492] Server  ERROR    ⨯ ReferenceError: enlargedImage is not defined
+[00:56:12.691] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:12.693] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:12.702] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:12.962] Browser ERROR   uncaughtError: ReferenceError: enlargedImage is not defined
+[00:56:12.962] Browser ERROR   uncaughtError: ReferenceError: enlargedImage is not defined
+[00:56:12.966] Browser ERROR   uncaughtError: ReferenceError: enlargedImage is not defined
+[00:56:42.217] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:56:42.217] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:56:42.219] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:56:42.449] Server  LOG      ✓ Compiled in 59ms
+[00:56:42.661] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:42.696] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:42.733] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:00:01.395] Server  LOG      ✓ Compiled in 55ms
+[01:00:06.203] Server  LOG      ✓ Compiled in 51ms
+[01:00:11.300] Server  LOG      ✓ Compiled in 53ms
+[01:00:15.874] Server  LOG      ✓ Compiled in 58ms
+[01:02:17.479] Server  LOG      ✓ Compiled in 60ms
+[01:02:20.909] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:02:32.350] Server  LOG      ✓ Compiled in 56ms
+[01:02:34.716] Server  LOG      ✓ Compiled in 114ms
+[01:02:39.173] Server  LOG      ✓ Compiled in 59ms
+[01:02:41.306] Server  LOG      ✓ Compiled in 78ms
+[01:02:42.206] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:02:58.190] Server  LOG      ✓ Compiled in 61ms
+[01:02:58.959] Browser ERROR   ./components/projects-section.tsx:38:9
+Parsing ecmascript source code failed
+  36 |       duration: "1 개월",
+  37 |       [
+> 38 |         "▶ **QR 허위 주문에 대한 보안 대책**",
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 39 |         "DineQ는 매장 테이블에 부착된 QR 코드를 인식해 접속하는 주문 서비스입니다. 설계 초기 단계에서, 이미 매장을 떠난 고객이 과거에 접속했던 URL을 통해 다시 접속하여 허위 주문을 생성할 수 있다는 보안 이슈가 발견되었습니다.",
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 40 |         "이를 해결하기 위해 **QR 코드 인식 시마다 랜덤 값으로 구성된 토큰을 발급**하고, 해당 토큰을 **쿼리 파라미터로 포함한 URL로 사용자를 리다이렉트**하는 방식을 제안했습니다.",
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 41 |         "또한 해당 토큰에는 **유효 시간(Time To Live)**을 설정하여 일정 시간이 경과하면 자동으로 만료되도록 설계했고, 이를 통해 **기존 URL 재사용을 통한 허위 주문을 차단**할 수 있었습니다.",
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 42 |       
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 43 |         "▶ **주문 갱신 속도 향상**",
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 44 |         "기존 Polling 방식의 한계로 인해 ‘주문 수신이 늦게 반영된다’는 사용자 피드백이 지속적으로 발생했습니다. 이에 따라 주문 갱신 구조를 **WebSocket 기반 실시간 통신 방식으로 전환**하기로 결정했습니다.",
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 45 |         "구현 과정에서는 **STOMP 프로토콜을 사용해 메시지 전송 규칙을 정의**하고, 주문 상태 변경 이벤트를 서버에서 WebSocket 메시지로 전달하도록 설계했습니다. 프론트엔드에서는 해당 메시지를 수신한 후 **변경된 주문 상태에 대해서만 REST API를 재요청**하는 하이브리드 방식을 적용했습니다.",
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 46 |         "그 결과, **최악의 경우 약 25배**, **평균적으로 약 12배 이상의 주문 반영 속도 개선**을 달성했으며, 불필요한 Polling 요청 제거로 **서버 요청 수를 약 90% 이상 감소**시키는 성과를 얻었습니다."
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  47 |       ]
+  48 |       images: ["/dineq.png", "/dineq-desc-2.png", "/picture.jpg"],
+  49 |     },
+
+A comma expression is not allowed in a computed property name
+
+Import trace:
+  Server Component:
+    ./components/projects-section.tsx
+    ./app/page.tsx
+[01:02:58.959] Browser ERROR   ./components/projects-section.tsx:38:9
+Parsing ecmascript source code failed
+  36 |       duration: "1 개월",
+  37 |       [
+> 38 |         "▶ **QR 허위 주문에 대한 보안 대책**",
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 39 |         "DineQ는 매장 테이블에 부착된 QR 코드를 인식해 접속하는 주문 서비스입니다. 설계 초기 단계에서, 이미 매장을 떠난 고객이 과거에 접속했던 URL을 통해 다시 접속하여 허위 주문을 생성할 수 있다는 보안 이슈가 발견되었습니다.",
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 40 |         "이를 해결하기 위해 **QR 코드 인식 시마다 랜덤 값으로 구성된 토큰을 발급**하고, 해당 토큰을 **쿼리 파라미터로 포함한 URL로 사용자를 리다이렉트**하는 방식을 제안했습니다.",
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 41 |         "또한 해당 토큰에는 **유효 시간(Time To Live)**을 설정하여 일정 시간이 경과하면 자동으로 만료되도록 설계했고, 이를 통해 **기존 URL 재사용을 통한 허위 주문을 차단**할 수 있었습니다.",
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 42 |       
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 43 |         "▶ **주문 갱신 속도 향상**",
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 44 |         "기존 Polling 방식의 한계로 인해 ‘주문 수신이 늦게 반영된다’는 사용자 피드백이 지속적으로 발생했습니다. 이에 따라 주문 갱신 구조를 **WebSocket 기반 실시간 통신 방식으로 전환**하기로 결정했습니다.",
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 45 |         "구현 과정에서는 **STOMP 프로토콜을 사용해 메시지 전송 규칙을 정의**하고, 주문 상태 변경 이벤트를 서버에서 WebSocket 메시지로 전달하도록 설계했습니다. 프론트엔드에서는 해당 메시지를 수신한 후 **변경된 주문 상태에 대해서만 REST API를 재요청**하는 하이브리드 방식을 적용했습니다.",
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 46 |         "그 결과, **최악의 경우 약 25배**, **평균적으로 약 12배 이상의 주문 반영 속도 개선**을 달성했으며, 불필요한 Polling 요청 제거로 **서버 요청 수를 약 90% 이상 감소**시키는 성과를 얻었습니다."
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  47 |       ]
+  48 |       images: ["/dineq.png", "/dineq-desc-2.png", "/picture.jpg"],
+  49 |     },
+
+A comma expression is not allowed in a computed property name
+
+Import trace:
+  Server Component:
+    ./components/projects-section.tsx
+    ./app/page.tsx
+[01:03:04.357] Server  LOG      ✓ Compiled in 55ms
+[01:03:07.984] Server  LOG      ✓ Compiled in 57ms
+[01:03:09.870] Server  LOG      ✓ Compiled in 94ms
+[01:03:26.175] Server  LOG      ✓ Compiled in 53ms
+[01:03:42.865] Server  LOG      ✓ Compiled in 50ms
+[01:04:55.349] Server  LOG      ✓ Compiled in 65ms
+[01:05:01.745] Server  LOG      ✓ Compiled in 94ms
+[01:05:10.925] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:12.066] Server  LOG      ✓ Compiled in 104ms
+[01:05:20.623] Server  LOG      ✓ Compiled in 119ms
+[01:05:28.984] Server  LOG      ✓ Compiled in 100ms
+[01:05:42.729] Server  LOG      ✓ Compiled in 54ms
+[01:08:47.349] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:08:50.049] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:09:12.501] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:09:51.967] Server  LOG      ✓ Compiled in 53ms
+[01:09:55.436] Server  LOG      ✓ Compiled in 53ms
+[01:09:58.103] Server  LOG      ✓ Compiled in 52ms
+[01:09:59.929] Server  LOG      ✓ Compiled in 100ms
+[01:10:14.305] Server  LOG      ✓ Compiled in 57ms
+[01:10:16.820] Server  LOG      ✓ Compiled in 52ms
+[01:10:18.085] Server  LOG      ✓ Compiled in 55ms
+[01:10:22.662] Server  LOG      ✓ Compiled in 57ms
+[01:11:19.872] Server  LOG      ✓ Compiled in 55ms
+[01:11:21.501] Server  LOG      ✓ Compiled in 58ms
+[01:11:33.062] Server  LOG      ✓ Compiled in 61ms
+[01:12:14.767] Server  LOG      ✓ Compiled in 60ms
+[01:12:14.957] Browser ERROR   uncaughtError: ReferenceError: raparagraph is not defined
+[01:12:16.510] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:12:16.719] Server  LOG      ✓ Compiled in 59ms
+[01:12:16.930] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:18.374] Server  LOG      ✓ Compiled in 55ms
+[01:12:22.234] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:23.112] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:25.116] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:25.412] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:40.911] Server  LOG      ✓ Compiled in 55ms
+[01:12:43.044] Server  LOG      ✓ Compiled in 52ms
+[01:13:28.517] Server  LOG      ✓ Compiled in 56ms
+[01:14:22.270] Server  LOG      ✓ Compiled in 51ms
+[01:14:34.058] Server  LOG      ✓ Compiled in 54ms
+[01:14:35.919] Server  LOG      ✓ Compiled in 52ms
+[01:14:40.464] Server  LOG      ✓ Compiled in 49ms
+[01:14:47.545] Server  LOG      ✓ Compiled in 53ms
+[01:15:07.345] Server  LOG      ✓ Compiled in 132ms
+[01:15:12.631] Server  LOG      ✓ Compiled in 64ms
+[01:15:13.073] Server  LOG      ✓ Compiled in 56ms
+[01:17:37.838] Server  LOG      ✓ Compiled in 55ms
+[01:17:46.721] Server  LOG      ✓ Compiled in 65ms
+[01:17:47.892] Server  LOG      ✓ Compiled in 54ms
+[01:20:34.233] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
