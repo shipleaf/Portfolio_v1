@@ -124,7 +124,7 @@ export function AboutSection() {
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-16">
           <div className="max-w-2xl mx-auto md:mx-0">
-            <img src="/shipleaf.jpg" alt="" />
+            <img src="/photo.png" alt="" />
           </div>
           <div
             className={`space-y-6 lg:col-span-2 transition-all duration-700 delay-100 text-center md:text-left ${
