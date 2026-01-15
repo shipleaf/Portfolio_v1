@@ -1,6 +1,7 @@
 "use client";
 
-import { X } from "lucide-react";
+import { X, ChevronLeft, ChevronRight } from "lucide-react";
+import { useState } from "react";
 
 interface MyJobCalendarModalProps {
   onClose: () => void;
@@ -14,6 +15,7 @@ const project = {
   teamSize: 5,
   techStack: ["React.js", "Recoil", "Naver Cloud Platform"],
   duration: "2 개월",
+  images: ["/myjobcalendar.png"],
   description: [
     "MyJobCalendar는 세종시 지역에 흩어져 있는 취업 정보를 일정 중심으로 통합 제공하기 위해 개발한 취업 정보 플랫폼입니다. 채용 공고와 기관 정보를 단순히 나열하는 방식이 아닌, 사용자의 취업 준비 흐름에 맞춰 캘린더 기반 UI로 정보를 재구성했습니다.",
     "채용 공고, 기관, 일정 데이터를 분리해 설계하고 날짜 기반 조회를 고려한 데이터 구조를 구성했으며, 선택한 날짜에 따라 필요한 정보만 동적으로 로딩되도록 상태 관리 흐름을 설계했습니다.",
@@ -22,10 +24,33 @@ const project = {
 };
 
 export function MyJobCalendarModal({ onClose }: MyJobCalendarModalProps) {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [enlargedImage, setEnlargedImage] = useState<string | null>(null);
+
   const handleBackdropClick = (e: React.MouseEvent) => {
     if (e.target === e.currentTarget) {
       onClose();
     }
+  };
+
+  const handleNextImage = () => {
+    if (project.images && project.images.length > 0) {
+      setCurrentImageIndex((prev) =>
+        prev === project.images!.length - 1 ? 0 : prev + 1
+      );
+    }
+  };
+
+  const handlePrevImage = () => {
+    if (project.images && project.images.length > 0) {
+      setCurrentImageIndex((prev) =>
+        prev === 0 ? project.images!.length - 1 : prev - 1
+      );
+    }
+  };
+
+  const handleImageClick = (imageUrl: string) => {
+    setEnlargedImage(imageUrl);
   };
 
   const getStatusConfig = (status: string) => {
@@ -81,14 +106,73 @@ export function MyJobCalendarModal({ onClose }: MyJobCalendarModalProps) {
         </div>
 
         <div className="p-6 space-y-6">
-          {/* 메인 이미지 */}
-          <div className="relative overflow-hidden rounded-lg bg-muted aspect-3/2">
-            <img
-              src={project.image || "/placeholder.svg"}
-              alt={project.title}
-              className="w-full h-full object-cover"
-            />
-          </div>
+          {/* 메인 이미지 캐러셀 */}
+          {project.images && project.images.length > 0 ? (
+            <div className="relative">
+              <div className="relative overflow-hidden rounded-lg bg-muted aspect-3/2">
+                <img
+                  src={project.images[currentImageIndex]}
+                  alt={`${project.title} - Image ${currentImageIndex + 1}`}
+                  className="w-full h-full object-contain cursor-pointer transition-opacity duration-300"
+                  onClick={() =>
+                    handleImageClick(project.images![currentImageIndex])
+                  }
+                />
+                {project.images.length > 1 && (
+                  <>
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handlePrevImage();
+                      }}
+                      className="absolute left-2 top-1/2 -translate-y-1/2 p-2 bg-black/50 hover:bg-black/70 text-white rounded-full transition-colors z-10"
+                      aria-label="Previous image"
+                    >
+                      <ChevronLeft className="w-5 h-5" />
+                    </button>
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleNextImage();
+                      }}
+                      className="absolute right-2 top-1/2 -translate-y-1/2 p-2 bg-black/50 hover:bg-black/70 text-white rounded-full transition-colors z-10"
+                      aria-label="Next image"
+                    >
+                      <ChevronRight className="w-5 h-5" />
+                    </button>
+                    <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-1.5 z-10">
+                      {project.images.map((_, index) => (
+                        <button
+                          key={index}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setCurrentImageIndex(index);
+                          }}
+                          className={`h-1.5 rounded-full transition-all ${
+                            index === currentImageIndex
+                              ? "w-6 bg-white"
+                              : "w-1.5 bg-white/50 hover:bg-white/75"
+                          }`}
+                          aria-label={`Go to image ${index + 1}`}
+                        />
+                      ))}
+                    </div>
+                  </>
+                )}
+              </div>
+              <div className="mt-2 text-center text-sm text-muted-foreground">
+                {currentImageIndex + 1} / {project.images.length}
+              </div>
+            </div>
+          ) : (
+            <div className="relative overflow-hidden rounded-lg bg-muted aspect-3/2">
+              <img
+                src={project.image || "/placeholder.svg"}
+                alt={project.title}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          )}
 
           {/* 프로젝트 정보 */}
           <div className="grid grid-cols-2 gap-4">
@@ -162,6 +246,27 @@ export function MyJobCalendarModal({ onClose }: MyJobCalendarModalProps) {
           {/* 예: 캘린더 UI 스크린샷, 데이터 구조, API 연동 구조 등 */}
         </div>
       </div>
+      {/* 확대된 이미지 모달 */}
+      {enlargedImage && (
+        <div
+          className="fixed inset-0 z-100 flex items-center justify-center bg-black/90 backdrop-blur-sm p-4"
+          onClick={() => setEnlargedImage(null)}
+        >
+          <button
+            onClick={() => setEnlargedImage(null)}
+            className="absolute top-4 right-4 p-2 hover:bg-white/10 rounded-lg transition-colors z-10"
+            aria-label="Close enlarged image"
+          >
+            <X className="w-6 h-6 text-white" />
+          </button>
+          <img
+            src={enlargedImage}
+            alt="Enlarged project image"
+            className="max-w-full max-h-[90vh] object-contain"
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+      )}
     </div>
   );
 }
